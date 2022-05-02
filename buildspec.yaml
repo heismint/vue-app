@@ -13,4 +13,4 @@ phases:
     commands:
       - echo PostBuild Phase
       - aws s3 sync build/ s3://for-demo-vuejs-app
-      - aws cloudfront create-invalidation --distribution-id E1DHXNH6OCP77S --paths "/*";
+      - aws cloudfront create-invalidation --distribution-id E2MPJE9VKZ5MP8 --paths "/*";
